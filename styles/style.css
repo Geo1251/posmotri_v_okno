@@ -186,7 +186,7 @@ fieldset {
 .content__details {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  width: 410px;
   height: 100%;
   gap: 20px;
 }
