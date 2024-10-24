@@ -91,31 +91,36 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
+  width: 711px;
+  height: 456px;
 }
 
 .result__video-container {
   position: relative;
+  width: 711px;
+  height: 386px;
 }
 
 .result__video {
-  width: 712px;
-  height: 386px;
+  width: inherit;
+  height: inherit;
   object-fit: cover;
   object-position: center;
 }
 
 .search-form {
   display: flex;
-  gap: 42px;
+  gap: 40px;
   justify-content: start;
+  height: 54px;
 }
 
 .search-form__fieldset {
   border: none;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
 }
 
 .search-form__fieldset-title {
@@ -190,8 +195,8 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 100%;
+  width: 399px;
+  height: 534px;
   gap: 20px;
 }
 
@@ -201,6 +206,7 @@ ol {
   font-weight: 700;
   line-height: 70.5px;
   text-transform: uppercase;
+  margin-top: 3px;
 }
 
 .content__accent {
@@ -209,7 +215,8 @@ ol {
 
 .content__list {
   position: relative;
-  height: 300px;
+  height: 298px;
+  width: 100%;
   overflow-y: auto;
 }
 
